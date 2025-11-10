@@ -46,5 +46,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            avalonwot/qbittorrentee:${{ steps.set-version.outputs.version }}
-            avalonwot/qbittorrentee:latest
+            ghcr.io/avalonwot/qbittorrentee:${{ steps.set-version.outputs.version }}
+            ghcr.io/avalonwot/qbittorrentee:latest
