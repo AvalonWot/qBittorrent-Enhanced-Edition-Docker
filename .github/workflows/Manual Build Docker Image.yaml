@@ -10,6 +10,9 @@ on:
 jobs:
   buildx:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
     steps:
       # 检出代码
       - name: 检出代码
